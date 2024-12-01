@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+svg {
+    display: block;
+    margin: 20px auto;
+}
+
+rect {
+    transition: width 0.9s;
+}
+
+svg:active rect {
+    fill: #966202;
+}
